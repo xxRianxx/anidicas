@@ -1,0 +1,117 @@
+
+
+body {
+   
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+header {
+  
+    text-align: center;
+    padding: 10px;
+    margin-top: -30px;
+    
+    
+    
+}
+
+nav {
+  
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    margin-top: -30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #230fd6;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas para um efeito de desenho animado */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #3309c8; /* Sombra da imagem */
+    padding: 10px 10px;
+    font-weight: bolder;
+    background-color: #333;
+}
+
+
+
+img.flutuante {
+    width: 400px; /* Largura da imagem */
+    height: auto;  /* Altura ajustada automaticamente para manter a proporção original */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Remove o espaçamento extra na parte inferior da imagem */
+    animation: balanco 2s infinite ease-in-out; /* Aplica a animação de balanço */
+}
+@keyframes balanco {
+    0% { transform: rotate(0); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0); }
+}
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use uma fonte estilo cartoon, como Comic Sans MS */
+    color: #230fd6; /* Escolha uma cor vibrante, típica de desenhos animados */
+    box-shadow: 5px 5px 10px #3309c8; /* Sombra da imagem */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas para um efeito de desenho animado */
+    text-shadow: 3px 3px 0 #000; /* Adiciona uma sombra ao texto */
+    border-radius: 20px;
+    background-color: #333;
+    background: linear-gradient(45deg, #2f00ff, #640984, #a59f9d);
+}
+
+        .logo {
+            
+            margin: 0 auto;
+            max-width: 70px; /* Ajuste o tamanho da imagem conforme necessário */
+        }
+.smoke {
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(255, 255, 255, 0.275), transparent 70%);
+
+}
+
+
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+flex: 1;
+}
+main{
+   
+     width: 100%;
+    height: 500px;
+    
+}
+
+iframe{
+    background: white;
+    border:0px;
+    width: 100%;
+    height: 550px;
+  
+    
+}

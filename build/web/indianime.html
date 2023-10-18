@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>adicionar animes</title>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <form method="post" action="salvar_animes.jsp">
+            <p>
+                
+                <label for="codigo"><font color="#230fd6">codigo: </font> </label>
+                <input type= "text" name ="codigo" id = "codigo">
+            </p>
+            <p>
+                
+                <label for="nome"><font color="#230fd6">Nome Do Anime: </font></label>
+                <input type= "text" name ="nome" id = "nome" size="50" maxlength="50">
+            </p>
+            <p>
+                
+                <label for="genero"><font color="#230fd6">Genero: </font></label>
+                <input type= "text" name ="genero" id = "genero" size="50" maxlength="50">
+            </p>
+            
+             <p>
+                
+                <label for="nota"><font color="#230fd6">Nota: </font></label>
+                <input type= "number" step="0.1" name ="nota" id = "nota">
+            </p>
+            
+            <input type="submit" value="salvar">
+            
+        </form>
+    </body>
+</html>
